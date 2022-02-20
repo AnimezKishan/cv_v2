@@ -2,11 +2,15 @@ div {
   background-color: #E4F9F5;
   text-align: center;
   position: relative;
-  padding: 100px 0 0 0;
+  padding: 50px 0 0 0;
 
+}
+.top-cont {
+  padding: 100px 0 0 0;
 }
 
 body {
+  color: #40514E;
   margin: 0;
   font-family: sans-serif;
 }
@@ -14,14 +18,22 @@ body {
 h1 {
   margin-top: 0;
   color: #66BFBF;
+  line-height: 2;
 }
 
 h2 {
   color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
   color: #11999E;
+}
+
+hr {
+  border: dotted #40514E 6px;
+  border-bottom: none;
+  width: 75%;
 }
 
 .t_cloud {
@@ -50,6 +62,7 @@ h3 {
 
 p {
   font-family: 'Montserrat', sans-serif;
+  line-height: 2;
 }
 
 .pic {
@@ -72,5 +85,81 @@ p {
 }
 
 .footer-link {
-  color: #11999E;
+  color: #40514E;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 20px auto 20px;
+}
+
+.cm {
+  padding-bottom: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+
+}
+
+.editingg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.editinggg {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-linkk {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.footer-linkk:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px 0 0 0;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.footer-link:hover {
+  background-color: powderblue;
+  transition: background-color .5s;
 }
